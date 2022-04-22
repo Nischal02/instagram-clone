@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Monda&family=Square+Peg&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(var(--b3f,250,250,250),1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#everything {
+    display: flex;
+    justify-content: center;
+    max-width: 935px;
+    margin: 28px auto;
+}
+
+#login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    width: 350px;
+}
+#login-page #login-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-content: space-between; */
+    border: 1px solid #cccc;
+    padding: 20px;
+    align-items: center;
+    background-color: #fff;
+}
+
+#login-page #login-box .logo {
+    font-family: 'Square Peg', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#login-page #login-box input {
+    margin-bottom: 5px;
+    outline: none;
+    padding: 10px;
+    font-size: 0.8em;
+    width: 90%;
+    background-color: #eee;
+    border: 1px solid #ddd;
+} 
+
+
+#login-page #login-box button {
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffff;
+    background-color: rgb(73, 185, 230);
+    border: none;
+    padding: 5px 0px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#login-page #login-box p {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgba(90, 88, 88, 0.667);
+}
+
+#login-page #login-box .facebook {
+    color: rgb(94, 111, 165);
+    margin: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#login-page #login-box .pass {
+    font-size: 12px;
+    color: rgba(0, 17, 255, 0.774);
+}
+
+#login-page #new-account {
+    margin: 20px 0px;
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #cccc;
+    font-size: 0.9rem;
+}
+
+#login-page #new-account a {
+    color: rgb(0, 140, 255);
+    font-weight: bold;
+}
+
+#everything #login-page .store-img {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    margin-top: 20px;
+}
+
+#everything #login-page .store-img img {
+    width: 140px;
+}
+
+
+@media screen and (max-width: 870px) {
+
+    #img {
+        display: none;
+    }
+}
